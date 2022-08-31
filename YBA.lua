@@ -61,12 +61,6 @@ Tab:AddButton({
 local Section = Tab:AddSection({
 	Name = "Auto Farm"
 })
-Tab:AddButton({
-	Name = "Auto Arcade",
-	Callback = function()
-        loadstring(game.HttpGet("https://gitlab.com/theholysea/yba-auto-arcade/-/raw/main/main.lua", "https://gitlab.com/theholysea/yba-auto-arcade/-/raw/main/main.lua"))();
-  	end    
-})
 local Tab = Window:MakeTab({
 	Name = "Character",
 	PremiumOnly = false
