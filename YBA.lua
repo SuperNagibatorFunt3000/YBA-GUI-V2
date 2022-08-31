@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "YBA GUI V2 [BETA]", IntroEnabled = false, HidePremium = true, SaveConfig = true, ConfigFolder = "YBA Test GUI"})
+local Window = OrionLib:MakeWindow({Name = "YBA GUI V2 [BETA]", IntroEnabled = true, IntroText = YBA GUI V2, HidePremium = true, SaveConfig = true, ConfigFolder = "YBA Test GUI"})
 local Tab = Window:MakeTab({
 	Name = "Combat",
 	PremiumOnly = false
